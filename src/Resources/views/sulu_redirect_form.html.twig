@@ -1,0 +1,9 @@
+{{ form_start(form) }}
+    {% if redirect|default(null) %}
+        <input type="hidden" name="_sulu_form_redirect" value="{{ redirect }}" />
+    {% endif %}
+
+    {% if querystring|default(null) %}
+        <input type="hidden" name="_sulu_form_querystring" value="{{ querystring }}" />
+    {% endif %}
+{{ form_end(form) }}

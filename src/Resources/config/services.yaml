@@ -1,0 +1,12 @@
+services:
+  Innomedio\Sulu\FormLandingPageBundle\EventListener\FormRedirectTargetRequestListener:
+    tags:
+      - { name: kernel.event_listener, event: kernel.request, priority: 30 }
+
+  Innomedio\Sulu\FormLandingPageBundle\EventListener\FormRedirectQuerystringRequestListener:
+    tags:
+      - { name: kernel.event_listener, event: kernel.request, priority: 31 }
+
+  Innomedio\Sulu\FormLandingPageBundle\EventListener\CustomFormRedirectEventListener:
+    tags:
+      - { name: kernel.event_listener, event: kernel.request }
