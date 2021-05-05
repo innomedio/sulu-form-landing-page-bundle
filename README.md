@@ -18,7 +18,7 @@ Innomedio\Sulu\FormLandingPageBundle\InnomedioSuluFormLandingPageBundle::class =
 
 ## Usage
 
-You can now define the redirect url once a form is submitted successfully. You can also define a
+You can now define the redirect url for successfully submitted forms. You can also define a
 querystring that needs to be appended.
 
 ```twig
@@ -28,7 +28,8 @@ querystring that needs to be appended.
 {{ form_end(content.formForTesting) }}
 ```
 
-So you could for example create a content block containing a single_page_selection and single_form_selection field,
+So now you could create a content block containing a single_page_selection and single_form_selection field to be able
+to dynamically handle form redirects.
 
 There's also a helper template available:
 
