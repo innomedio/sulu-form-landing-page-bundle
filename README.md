@@ -25,7 +25,7 @@ querystring that needs to be appended.
 {{ form_start(content.testForm) }}
     <input type="hidden" name="_sulu_form_redirect" value="{{ sulu_content_load(content.landingPage).path }}" />
     <input type="hidden" name="_sulu_form_querystring" value="?utm=this&id=that" />
-{{ form_end(content.formForTesting) }}
+{{ form_end(content.testForm) }}
 ```
 
 So now you could create a content block containing a single_page_selection and single_form_selection field to be able
