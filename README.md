@@ -13,7 +13,7 @@ composer require innomedio/sulu-form-landing-page-bundle
 
 Add the bundle to ``config/bundles.php`` if it's not automatically added:
 ```
-Innomedio\Sulu\Bundle\FormLandingPageBundle\InnomedioSuluFormLandingPageBundle::class => ['all' => true],  
+Innomedio\Sulu\FormLandingPageBundle\InnomedioSuluFormLandingPageBundle::class => ['all' => true],  
 ```
 
 ## Usage
