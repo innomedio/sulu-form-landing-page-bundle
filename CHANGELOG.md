@@ -1,3 +1,7 @@
+# 2.0
+
+- Update for Symfony 6
+
 # 1.0.3
 
 - Update some dev dependency requirements

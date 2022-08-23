@@ -10,7 +10,7 @@ abstract class AbstractSuluRedirectFieldHandler
 {
     protected function saveToSession(RequestEvent $event, string $field)
     {
-        if (!$event->isMasterRequest()) {
+        if (!$event->isMainRequest()) {
             return;
         }
 
