@@ -19,7 +19,7 @@
     ],
     "require": {
         "sulu/sulu": "^2.5",
-        "symfony/framework-bundle": "^6.1",
+        "symfony/framework-bundle": "^6.1 || ^7.0",
         "jackalope/jackalope-doctrine-dbal": "^2.0",
         "ext-curl": "*",
         "ext-json": "*"
